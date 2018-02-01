@@ -17,7 +17,7 @@ fuzzers = {
     {
         "name": "Zzuf",
         "file": "zzuf/src/zzuf",
-        "args": '-r 0.01 -s %(seed)s -v -d < "%(input)s" > %(output)s',
+        "args": '-r 0.01 -s %(seed)s -q -d < "%(input)s" > %(output)s',
         "type": "mut"
     },
     "Dharma":
